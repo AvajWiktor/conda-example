@@ -1,0 +1,26 @@
+package:
+  name: hello-fmt
+  version: "0.1.0"
+
+source:
+  path: ..
+
+requirements:
+  build:
+    - cmake
+    - ninja
+    - clang_win-64      # [win]
+    - vs2022_win-64     # [win]
+    - gcc_linux-64      # [linux]
+    - gxx_linux-64      # [linux]
+    - fmt
+
+  host:
+    - fmt
+  run:
+    - fmt
+
+about:
+  home: https://github.com/AvajWiktor/conda-example
+  summary: "Hello world in C++ using the fmt library"
+  license: MIT
