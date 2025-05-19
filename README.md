@@ -1,0 +1,1 @@
+This repository provides a minimal example of packaging a C++ library/application using Conda. It contains a simple C++ project, along with the required meta.yaml recipe and build scripts for cross-platform (Linux/Windows) support.
